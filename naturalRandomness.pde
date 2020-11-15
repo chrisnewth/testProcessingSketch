@@ -10,7 +10,7 @@ void setup() {
 
     float ellipseWidth = hyperbolicPseudorandom (minRadius, alpha);//random ellipse width, using function to return value
     float ellipseHeight = hyperbolicPseudorandom (minRadius, alpha);//random ellipse height, using function to return value
-
+    fill(hyperbolicPseudorandom(5.0,0.5));
     ellipse(random(0, width), random(0, height), ellipseWidth, ellipseHeight);//draw the ellipse (200 of them)
   }
 }
